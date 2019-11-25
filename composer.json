@@ -1,0 +1,16 @@
+{
+	"name": "ice/cms",
+	"authors": [{
+		"name": "Ice",
+		"email": ""
+	}],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Engine\\": "engine",
+			"Engine\\DI\\": "engine/Di",
+			"Cms\\": "cms",
+			"Admin\\": "admin"
+		}
+	}
+}
